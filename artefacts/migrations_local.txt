@@ -1,0 +1,75 @@
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      5777
+> Block gas limit: 6721975 (0x6691b7)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xcff0ec8506ead420279b7249b0434201f5c26a730c997b9dec6da7c9270c8c93
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xe61A02aD200A0B415BF3ad02d720034Cb91D1B2B
+   > block number:        106
+   > block timestamp:     1601212960
+   > account:             0x36eD70E5252dDf707C317d3ddc38840f94F471aB
+   > balance:             98.56133492
+   > gas used:            225237 (0x36fd5)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.00450474 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00450474 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'Verifier'
+   --------------------
+   > transaction hash:    0x1f8be1166c2b684311c57832893cd0e7a4678584a182a8478e93b1a3ec7d2ea7
+   > Blocks: 0            Seconds: 0
+   > contract address:    0xdF2A8706e482229da20967e1C2932870073203f6
+   > block number:        108
+   > block timestamp:     1601212963
+   > account:             0x36eD70E5252dDf707C317d3ddc38840f94F471aB
+   > balance:             98.54113504
+   > gas used:            967631 (0xec3cf)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.01935262 ETH
+
+
+   Deploying 'SolnSquareVerifier'
+   ------------------------------
+   > transaction hash:    0xed271b842da5132990dcfd648bdea0f97d131e0e84d8a9d3aa09127daa760fd8
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x867A21F12B1bF244F7Edf206A146eA21722a1a11
+   > block number:        109
+   > block timestamp:     1601212964
+   > account:             0x36eD70E5252dDf707C317d3ddc38840f94F471aB
+   > balance:             98.47012662
+   > gas used:            3550421 (0x362cd5)
+   > gas price:           20 gwei
+   > value sent:          0 ETH
+   > total cost:          0.07100842 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.09036104 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.09486578 ETH
